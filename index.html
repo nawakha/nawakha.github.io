@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Морской Вкус - деликатесы с вод</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="logo-container">
+                    <img src="img/logoLeft.png" alt="ЛОГОТИП" class="logo">
+                    <a href="#"><p>Морской Вкус</p></a>
+                    <img src="img/logoRight.png" alt="ЛОГОТИП" class="logo">
+
+                </div>
+                <nav class="menu" id="menu">
+                    <ul>
+                        <li><a href="">Главная</a></li>
+                        <li><a href="#SaleOff">Каталог</a></li>
+                        <li><a href="#delivery">Условия доставки</a></li>
+                        <li><a href="#coms">Отзывы</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <p class="p">Морской Вкус</p>
+            <p class="p2">У нас лучшие морепродукты в Казахстане!!!</p>
+            <a href="#" class="btn">Оформить сейчас</a>
+        </section>
+
+        <!-- Отзывы -->
+        <a name="coms" class="coms"></a>
+        <section class="testimonials">
+            <h1>Отзывы</h1>
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial">
+                    <p>"Отличное качество морепродуктов! Всегда свежее и вкусное."</p>
+                    <h4>- Кажыбай Расул</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Лучшие цены и быстрая доставка. Рекомендую абсолютно всем!"</p>
+                    <h4>- Лысенко Владимир</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Проверено мной, моей семьей, и котом, проверка была пройдена успешно"</p>
+                    <h4>- Ноу-нейм</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Лишь один единственный минус - не бесплатно, а так 5/5"</p>
+                    <h4>- Ризай Нурлан</h4>
+                </div>
+            </div>
+            <button class="btn" onclick="prevTestimonial()">Назад</button>
+            <button class="btn" onclick="nextTestimonial()">Вперед</button>
+        </section>
+
+        <!-- Каталог, вместо троеточий ставишь название раздела -->
+        <a name="SaleOff"></a>
+        <div class="container">
+            <section class="catalog">
+                <h1>Каталог акций</h1>
+                <div class="catalog-container">
+                    <div class="product">
+                        <img src="img/SaleOff/KleshniCraba.jpg" alt="ТОВАР">
+                        <h3> Клешни краба </h3>
+                        <p> Клешни Прикаспийского краба 4L 2̶3̶0̶0̶0тг</p>
+                        <span class="price">Цена: 19000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/IkraKety.jpg" alt="ТОВАР">
+                        <h3> Красная икра </h3>
+                        <p> Икра красная Кеты 2023 года вылова 4̶5̶0̶0̶0тг</p>
+                        <span class="price">Цена: 35000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/SemgaSlices.jpg" alt="ТОВАР">
+                        <h3> Слайсы семги </h3>
+                        <p> Слайсы семги холодного копчения 1̶8̶0̶0̶0тг</p>
+                        <span class="price">Цена: 14000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/KleshniCraba.jpg" alt="ТОВАР">
+                        <h3> Клешни краба </h3>
+                        <p> Клешни Прикаспийского краба 4L 2̶3̶0̶0̶0тг</p>
+                        <span class="price">Цена: 19000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/IkraKety.jpg" alt="ТОВАР">
+                        <h3> Красная икра </h3>
+                        <p> Икра красная Кеты 2023 года вылова 4̶5̶0̶0̶0тг</p>
+                        <span class="price">Цена: 35000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/SemgaSlices.jpg" alt="ТОВАР">
+                        <h3> Слайсы семги </h3>
+                        <p> Слайсы семги холодного копчения 1̶8̶0̶0̶0тг</p>
+                        <span class="price">Цена: 14000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                <h1>Каталог ...</h1>
+                <div class="catalog-container">
+                    <div class="product">
+                        <img src="img/SaleOff/KleshniCraba.jpg" alt="ТОВАР">
+                        <h3> Клешни краба </h3>
+                        <p> Клешни Прикаспийского краба 4L 2̶3̶0̶0̶0тг</p>
+                        <span class="price">Цена: 19000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/IkraKety.jpg" alt="ТОВАР">
+                        <h3> Красная икра </h3>
+                        <p> Икра красная Кеты 2023 года вылова 4̶5̶0̶0̶0тг</p>
+                        <span class="price">Цена: 35000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/SemgaSlices.jpg" alt="ТОВАР">
+                        <h3> Слайсы семги </h3>
+                        <p> Слайсы семги холодного копчения 1̶8̶0̶0̶0тг</p>
+                        <span class="price">Цена: 14000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/KleshniCraba.jpg" alt="ТОВАР">
+                        <h3> Клешни краба </h3>
+                        <p> Клешни Прикаспийского краба 4L 2̶3̶0̶0̶0тг</p>
+                        <span class="price">Цена: 19000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/IkraKety.jpg" alt="ТОВАР">
+                        <h3> Красная икра </h3>
+                        <p> Икра красная Кеты 2023 года вылова 4̶5̶0̶0̶0тг</p>
+                        <span class="price">Цена: 35000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/SemgaSlices.jpg" alt="ТОВАР">
+                        <h3> Слайсы семги </h3>
+                        <p> Слайсы семги холодного копчения 1̶8̶0̶0̶0тг</p>
+                        <span class="price">Цена: 14000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div> 
+                </div>
+
+                <h1>Каталог ...</h1>
+                <div class="catalog-container">
+                    <div class="product">
+                        <img src="img/SaleOff/KleshniCraba.jpg" alt="ТОВАР">
+                        <h3> Клешни краба </h3>
+                        <p> Клешни Прикаспийского краба 4L 2̶3̶0̶0̶0тг</p>
+                        <span class="price">Цена: 19000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/IkraKety.jpg" alt="ТОВАР">
+                        <h3> Красная икра </h3>
+                        <p> Икра красная Кеты 2023 года вылова 4̶5̶0̶0̶0тг</p>
+                        <span class="price">Цена: 35000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/SemgaSlices.jpg" alt="ТОВАР">
+                        <h3> Слайсы семги </h3>
+                        <p> Слайсы семги холодного копчения 1̶8̶0̶0̶0тг</p>
+                        <span class="price">Цена: 14000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/KleshniCraba.jpg" alt="ТОВАР">
+                        <h3> Клешни краба </h3>
+                        <p> Клешни Прикаспийского краба 4L 2̶3̶0̶0̶0тг</p>
+                        <span class="price">Цена: 19000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/IkraKety.jpg" alt="ТОВАР">
+                        <h3> Красная икра </h3>
+                        <p> Икра красная Кеты 2023 года вылова 4̶5̶0̶0̶0тг</p>
+                        <span class="price">Цена: 35000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/SaleOff/SemgaSlices.jpg" alt="ТОВАР">
+                        <h3> Слайсы семги </h3>
+                        <p> Слайсы семги холодного копчения 1̶8̶0̶0̶0тг</p>
+                        <span class="price">Цена: 14000 тг/кг</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                </div> <a name="delivery"></a>
+            </div>
+            </section>
+    </main>
+
+    <section class="delivery">
+        <div class="container">
+            <h2>Условия доставки и оплаты</h2>
+            <p class="p">Минимальная сумма заказа – 10 000 тенге.</p>
+            <p>Доставка осуществляется на следующий день, после оформления заказа.</p>
+            <p>Оплата осуществляется при получении товара.</p>
+            <p>Оплата наличными, либо на расчетный счет путем перечисления для юридических лиц.</p>
+            <p>Доставка продуктов осуществляется в рефрижераторах.</p>
+
+            <img src="img/delivery.gif">
+        </div>
+ 
+    </section>
+
+    <section class="about-us">
+        <div class="container">
+            <h2>О нас</h2>
+            <p> Компания "Морской Вкус" основана в 2012 году. Основной деятельностью компании является розничная и 
+                оптовая торговля свежемороженых морепродуктов и рыбы (креветки, мидии, кальмары, осьминоги, гребешки и др.), 
+                рыбы холодного копчения (семга, эсколар, скумбрия, горбуша и форель), а также бакалеи для суши-баров, 
+                свежемороженых ягод и овощей.</p>
+            <p> Главное отличие компании "Морской Вкус" является производство по холодному копчению. Использование в рыбном 
+                цехе современного оборудования, технологий правильного копчения, качественного сырья позволяет получать копчёные
+                рыбные продукты высокого качества со сбалансированным ароматом и вкусом копчёности. Действующая на предприятии
+                система контроля качества обеспечивает постоянный контроль соблюдения всех норм и стандартов в отношении продуктов
+                питания на всех стадиях: приёма, производства, хранения, и отгрузки продуктов. Вся продукция имеет необходимые
+                сертификаты качества, соответствует всем установленным стандартам.</p>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <a name="contacts"></a>
+        <div class="container">
+            <div class="worktime">
+                <h3>Режим работы:</h3>
+                <p>Руководство - Ризай Нұрлан Муратұлы</p>
+                <p>Понедельник - Пятница: 9:00 - 19:00</p>
+                <p>Суббота - Воскресенье: Выходной</p>
+            </div>
+
+            <div class="soc">
+                <h3>Социальные сети:</h3>
+                <ul>
+                    <a href="#">Whatsapp</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="contacts">
+                <h3>Контактная информация:</h3>
+                <ul>
+                    <li>Телефон: +7 (707) 183-99-72</li>
+                    <li>Email: nurlan.rizai07@gmail.com</li>
+                    <li>Адрес: г. Атырау, ул. Мира, д. 13</li>
+                </ul>
+            </div>
+        </div>    
+    </footer>
+
+    <script>
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.testimonial');
+        const totalTestimonials = testimonials.length;
+
+        function showTestimonial(index) {
+            testimonials.forEach((testimonial, i) => {
+                testimonial.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function prevTestimonial() {
+            currentTestimonial = (currentTestimonial === 0) ? totalTestimonials - 1 : currentTestimonial - 1;
+            showTestimonial(currentTestimonial);
+        }
+
+        function nextTestimonial() {
+            currentTestimonial = (currentTestimonial === totalTestimonials - 1) ? 0 : currentTestimonial + 1;
+            showTestimonial(currentTestimonial);
+        }
+
+        showTestimonial(currentTestimonial);
+    </script>
+</body>
+</html>

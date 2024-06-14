@@ -1,0 +1,362 @@
+@import url(fonts/ofont.ru_Avenir\ Next.ttf);
+@import url(fonts/Mosk\ Bold\ 700.ttf);
+@import url(fonts/Mosk\ Ultra-Bold\ 900.ttf);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(100, 120, 255), rgba(40, 201, 255, 0.5));
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    padding-top: 1vh;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 20px #000;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header img {
+    width: 50px;
+}
+
+.header p {
+    color: #336ca6;
+    font-family: 'Avenir Next Cyr Medium', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    padding: 10px 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    transition: .2s;
+    color: #3498db;
+}
+
+.banner, .catalog, .testimonials, footer {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+.banner {
+    padding-top: 15%;
+    height: 60vh;
+    background: url('img/banner.jpg') no-repeat center;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    text-align: center;
+    background-size: cover;
+}
+
+.banner .p {
+    text-shadow: 1px 1px 10px #000;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.banner .p2 {
+    text-shadow: 1px 1px 10px #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+
+.btn {
+    text-shadow: 0px 0px 0px #000;
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.testimonials {
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #000;
+    font-size: 20px;
+}
+
+.testimonial-slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    border-radius: 45px;
+    background: linear-gradient(rgb(148, 169, 255),rgb(255, 255, 255));
+    display: none;
+    padding: 20px;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.catalog {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.catalog h1 {
+    padding-top: 7vh;
+}
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #000;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    margin: 15px 0;
+}
+
+.product p {
+    font-size: 14px;
+    color: #666;
+    margin: 15px 0;
+}
+
+.product .price{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.delivery {
+    text-align: center;
+    background-color: #fff;
+    color: #336ca6;
+    padding-bottom: 20vh;
+}
+
+.delivery h2 {
+    padding-top: 7vh;
+}
+
+.delivery p {
+    font-weight: 600;
+    text-align: left;
+}
+
+.delivery .p {
+    padding-top: 7vh;
+}
+
+.delivery img {
+    margin-top: -27%;
+    float: right;
+}
+
+.about-us {
+    padding: 50px 0;
+}
+
+.about-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+footer{
+    margin-top: 15vh;
+    background-color: #336ca6;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+.worktime{ 
+    margin-top: -15px;
+    float: left;
+}
+
+.contacts {
+    transform: translateX(-3.5%);
+    text-align: center;
+}
+
+.soc {
+    float: right;
+    margin-top: -15px
+}
+
+.soc a {
+    color: #fff;
+}
+
+.product {
+    flex: 1 1 calc(30% - 20px);
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    header {
+        padding-top: 2vh;
+    }
+
+    .logo-container {
+        margin-left: 10px;
+        gap: 5px;
+    }
+
+    .header p {
+        font-size: 24px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        padding: 10px 0;
+    }
+
+    .banner {
+        padding-top: 20%;
+        height: 50vh;
+    }
+
+    .banner .p {
+        font-size: 20px;
+    }
+
+    .banner .p2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-slider {
+        padding: 0 10px;
+    }
+
+    .product {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .delivery img {
+        max-width: 100%;
+        margin-top: 0;
+        float: none;
+    }
+
+    .contacts {
+        transform: none;
+    }
+}
